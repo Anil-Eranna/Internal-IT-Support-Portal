@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #add8e6;
+}
+
+.Logo {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.Logo img {
+    height: 70px;
+    margin-left: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Logo .logout {
+    height: 30px;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+.Logo .logout:hover {
+    border-radius: 8px;
+}
